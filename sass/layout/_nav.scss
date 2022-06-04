@@ -19,6 +19,9 @@
 
 .connection {
   margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .connection__tele {
@@ -69,6 +72,9 @@
 
 .nav__list {
   margin-left: 93px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .nav__port {
