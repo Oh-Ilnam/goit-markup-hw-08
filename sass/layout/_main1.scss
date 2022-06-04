@@ -1,0 +1,58 @@
+.main__section {
+  padding: 94px 0;
+  background: var(--header);
+}
+
+.main__item {
+  display: flex;
+}
+
+.main__benefits {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+  color: var(--main-item-heading);
+}
+
+.main__icon {
+  display: inline;
+  margin-right: 30px;
+
+  width: 270px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.main__icon:last-child {
+  margin-right: 0;
+}
+
+.main__description {
+  max-width: 270px;
+
+  color: var(--main-item-text);
+}
+
+.section {
+  background: #f5f4fa;
+  padding: 94px 0;
+}
+
+.main__img {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+}
